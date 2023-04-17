@@ -55,6 +55,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+  
 
   
   section div:nth-child(3n) {
@@ -119,7 +120,7 @@ body {
 
 
 
-
+/*----------------------------------Gestion PopUp----------------------------------*/
 
 
 
@@ -128,9 +129,10 @@ body {
     }
 
     .popup img{
-        width : 100%;
-        max-width: 500px;
-        max-height: 200px;
+        width : 50%;
+        
+
+        
     }
   
   .popup {
@@ -142,6 +144,10 @@ body {
     color:#1d1d1d;
     padding: 20px;
     border-radius: 5px;
+    max-height: 80%;
+    max-width: 80%;
+    min-height: 60%;
+    min-width: 60%;
   }
   
   .close {
